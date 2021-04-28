@@ -1,0 +1,20 @@
+.menuItems button { 
+  border: 0 none !important;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin: auto;
+}
+.menuTitle {
+  padding-left:16px;
+  font-size:x-large;
+  font-weight: bold;
+  padding-top:25px;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.dropdown-menu {
+  position:fixed
+}
